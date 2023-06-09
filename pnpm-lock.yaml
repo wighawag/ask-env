@@ -1,0 +1,72 @@
+lockfileVersion: '6.0'
+
+dependencies:
+  commander:
+    specifier: ^10.0.1
+    version: 10.0.1
+  dotenv:
+    specifier: ^16.1.4
+    version: 16.1.4
+  edit-dotenv:
+    specifier: ^1.0.4
+    version: 1.0.4
+  prompts:
+    specifier: ^2.4.2
+    version: 2.4.2
+
+devDependencies:
+  set-defaults:
+    specifier: ^0.0.1
+    version: 0.0.1
+
+packages:
+
+  /commander@10.0.1:
+    resolution: {integrity: sha512-y4Mg2tXshplEbSGzx7amzPwKKOCGuoSRP/CjEdwwk0FOGlUbq6lKuoyDZTNZkmxHdJtp54hdfY/JUrdL7Xfdug==}
+    engines: {node: '>=14'}
+
+  /dotenv@16.1.4:
+    resolution: {integrity: sha512-m55RtE8AsPeJBpOIFKihEmqUcoVncQIwo7x9U8ZwLEZw9ZpXboz2c+rvog+jUaJvVrZ5kBOeYQBX5+8Aa/OZQw==}
+    engines: {node: '>=12'}
+    dev: false
+
+  /edit-dotenv@1.0.4:
+    resolution: {integrity: sha512-te7XBIm7Z22JYln02y1T6L0RA2UioDKSxBUTVHBxPGyb7G9aq2QXc2ZaO1maMUBSjLk61M+hjgoUchU6XdARTA==}
+    engines: {node: '>= 4'}
+    dependencies:
+      eol: 0.9.1
+      escape-string-regexp: 1.0.5
+    dev: false
+
+  /eol@0.9.1:
+    resolution: {integrity: sha512-Ds/TEoZjwggRoz/Q2O7SE3i4Jm66mqTDfmdHdq/7DKVk3bro9Q8h6WdXKdPqFLMoqxrDK5SVRzHVPOS6uuGtrg==}
+    dev: false
+
+  /escape-string-regexp@1.0.5:
+    resolution: {integrity: sha512-vbRorB5FUQWvla16U8R/qgaFIya2qGzwDrNmCZuYKrbdSUMG6I1ZCGQRefkRVhuOkIGVne7BQ35DSfo1qvJqFg==}
+    engines: {node: '>=0.8.0'}
+    dev: false
+
+  /kleur@3.0.3:
+    resolution: {integrity: sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==}
+    engines: {node: '>=6'}
+    dev: false
+
+  /prompts@2.4.2:
+    resolution: {integrity: sha512-NxNv/kLguCA7p3jE8oL2aEBsrJWgAakBpgmgK6lpPWV+WuOmY6r2/zbAVnP+T8bQlA0nzHXSJSJW0Hq7ylaD2Q==}
+    engines: {node: '>= 6'}
+    dependencies:
+      kleur: 3.0.3
+      sisteransi: 1.0.5
+    dev: false
+
+  /set-defaults@0.0.1:
+    resolution: {integrity: sha512-HXaanWD2lh36xRErVIwwVvzoAfG8EJTMid3gWieSX1p9VO4KkyRQ97zsonNuE9oIuiTlpThBKUpGUyi85JSzBA==}
+    hasBin: true
+    dependencies:
+      commander: 10.0.1
+    dev: true
+
+  /sisteransi@1.0.5:
+    resolution: {integrity: sha512-bLGGlR1QxBcynn2d5YmDX4MGjlZvy2MRBDRNHLJ8VI6l6+9FUiyTFNJ0IveOSP0bcXgVDPRcfGqA0pjaqUpfVg==}
+    dev: false
